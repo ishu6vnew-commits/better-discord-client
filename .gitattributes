@@ -1,0 +1,16 @@
+# Do not edit manually
+# Text file normalization
+# Exclude build artifacts
+**/*.go linguist-detectable
+Cargo.lock linguist-generated
+
+build/* linguist-vendored
+
+*.bat text eol=crlf
+*.ico binary
+
+*.html linguist-vendored
+*.go linguist-detectable
+*.woff binary
+
+# eof 87a571c8
